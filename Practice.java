@@ -1,4 +1,4 @@
- class Practise     // Here is the class name
+ class Practice     // Here is the class name
  {
     public static void main(String[] args)    // This is the main methods And execution start here 
     {
