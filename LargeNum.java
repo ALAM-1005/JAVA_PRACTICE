@@ -15,7 +15,7 @@ public class LargeNum {
 
 
     }
-    static int checkLarge(int a ,int b,int c){
+    static int checkLarge(int a ,int b,int c){   // here Static methods used by static keyword
         int max = a>b && a>c?a:(b>c?b:c);
 
         return max;
