@@ -21,7 +21,7 @@ public class Mobile1 {
         Mobile1 M = new Mobile1();
 
 
-        System.out.println(M);
+        System.out.println(M.brand);
     }
     
 }
