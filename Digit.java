@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Degine a method to display each digit in the given Number.
+ * Define a method to display each digit in the given Number.
  */
 public class Digit {
 
