@@ -10,18 +10,21 @@ public class SumDigit {
         
         int n = sc.nextInt();
 
-        Digit(n);
+        sumDigit(n);
+
+        System.out.println(sumDigit(n));
 
 
     }
 
-    static int Digit(int n){
+    static int sumDigit(int n){
 
         int sum = 0;
 
         do{
 
-            sum +=(n%10);
+            sum += n%10;
+
             n = n/10;
 
         }while(n!=0);
