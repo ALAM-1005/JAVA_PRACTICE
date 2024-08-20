@@ -1,3 +1,7 @@
+/**
+ * DAMTF first and Last digit sumation and in between digit Sumation.
+ * 
+ */
 import java.util.Scanner;
 
 public class DigitSumation {

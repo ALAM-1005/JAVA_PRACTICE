@@ -1,3 +1,7 @@
+/**
+ * Define a method to display Even Number b/w the limits(user Enter Number )
+ * 
+ */
 import java.util.Scanner;
 
 public class SumDigit {
@@ -13,7 +17,6 @@ public class SumDigit {
         sumDigit(n);
 
         System.out.println(sumDigit(n));
-
 
     }
 

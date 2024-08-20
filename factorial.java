@@ -1,3 +1,9 @@
+/**
+ * DAFTF the product of n natural number
+ * 
+ */
+
+
 import java.util.Scanner;
 
 public class factorial {
