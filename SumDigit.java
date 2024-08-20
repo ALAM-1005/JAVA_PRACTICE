@@ -1,6 +1,5 @@
 /**
- * Define a method to display Even Number b/w the limits(user Enter Number )
- * 
+ * DAM to return sumation of each digit 
  */
 import java.util.Scanner;
 
