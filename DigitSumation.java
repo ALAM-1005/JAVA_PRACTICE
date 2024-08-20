@@ -13,9 +13,8 @@ public class DigitSumation {
         int midSum = 0;
         n = n/10;
 
-        System.out.println(flSum);
-        System.out.println(midSum);
-
+        
+        
         while(n/10 != 0){
 
             int rem = n%10;
@@ -26,6 +25,8 @@ public class DigitSumation {
         }
 
         flSum = flSum+n;
+        System.out.println(flSum);
+        System.out.println(midSum);
     }
     
 }
