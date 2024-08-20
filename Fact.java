@@ -1,3 +1,7 @@
+/**
+ * Define a method to find Factors of given Number.
+ */
+
 import java.util.Scanner;
 
 public class Fact {
@@ -16,11 +20,9 @@ public class Fact {
      }
 
      static void fact(int n){
-        
+        // 
         for(int i= 1;i<=n;i++){
-
             int  Sum  = 0;
-
             if (n%i == 0) {
 
                 System.out.println(i);
