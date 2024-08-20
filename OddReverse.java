@@ -1,13 +1,13 @@
 /**
- * Define a method to display Odd Number b/w the limits(user Enter Number )
+ * Define a method to display Odd Number b/w the limits(user Enter Number ) in reverse order.
  * 
  */
 
- import java.util.Scanner;
+import java.util.Scanner;
 
-class Odd {
-
-    public static void main(String[] args) {
+public class OddReverse {
+    
+     public static void main(String[] args) {
         
 
         Scanner sc = new Scanner(System.in);
@@ -20,11 +20,11 @@ class Odd {
         System.out.println("-------------");
 
         // for(int i=a;i<=b;i++)
-        for(;a<=b;a++)         
+        for(;b>=a;b--)
         {
 
-            if(a%2 == 1)
-            System.out.println(a+" ODD ");
+            if(b%2 == 1)
+            System.out.println(b+" odd");
         }
 
     }
