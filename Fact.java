@@ -23,14 +23,14 @@ public class Fact {
         // 
         for(int i= 1;i<=n;i++){
             int  Sum  = 0;
+            
             if (n%i == 0) {
 
                 System.out.println(i);
 
                 Sum += i;
-                
             }
-        }
+        } 
 
      }
     
