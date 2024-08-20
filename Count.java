@@ -1,3 +1,7 @@
+/**
+ * DAMT count no.of digit in the given Number
+ */
+
 import java.util.Scanner;
 
 public class Count {
