@@ -1,3 +1,7 @@
+/**
+ * Write a java program factorial each digit in given number.
+ */
+
 import java.util.Scanner;
 
 public class DigitFact {
