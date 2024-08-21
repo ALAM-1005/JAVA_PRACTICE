@@ -6,7 +6,7 @@ public class Alphabet {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        displayAlphabet(n);
+        displayAlphabet();
        
     }
     public static void displayAlphabet(){
