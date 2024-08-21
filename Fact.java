@@ -7,12 +7,12 @@ import java.util.Scanner;
 public class Fact {
 
     public static void main(String[] args) {
-        Scanner sc =  new Scanner(System.in);
+        Scanner scan =  new Scanner(System.in);
 
       
         System.out.println("Enter the Number ");
 
-        int n = sc.nextInt();
+        int n = scan.nextInt();
 
         fact(n);
 
