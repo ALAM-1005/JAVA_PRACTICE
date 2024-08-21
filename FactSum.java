@@ -21,18 +21,15 @@ public class FactSum {
      }
 
      static void fact(int n){
-        
+        int Sum = 0;
         for(int i= 1;i<=n;i++){
-            int Sum = 0;
+            
             
             if (n%i == 0) {
-
-                
-
                 Sum += i;
             }
-            System.out.println(Sum);
-        } 
+            
+        } System.out.println(Sum);
 
      }
     
