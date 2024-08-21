@@ -17,14 +17,14 @@ public class Alphabet {
 
         for(char i = 'A';i<='Z';i++){
 
-            System.out.println(i + " ");
+            System.out.print(i + " ");
 
         }
         System.out.println();
 
-        
+
         for(char i = 'a';i<='z';i++){
-            System.out.println(i + " ");
+            System.out.print(i + " ");
         }
     }
 
