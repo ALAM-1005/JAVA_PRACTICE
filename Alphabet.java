@@ -21,10 +21,13 @@ public class Alphabet {
 
         }
         System.out.println();
-    }
 
+        
         for(char i = 'a';i<='z';i++){
             System.out.println(i + " ");
         }
+    }
+
+        
     
 }
