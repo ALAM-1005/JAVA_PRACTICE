@@ -1,3 +1,7 @@
+/**
+ * Define a methd to display upper case and lower case of alphabet .
+ */
+
 import java.util.Scanner;
 
 public class Alphabet {
@@ -13,7 +17,7 @@ public class Alphabet {
 
         for(char i = 'A';i<= 'Z';i++){
 
-            System.out.println(i+ " ");
+            System.out.println(i + " ");
 
         }
     }
