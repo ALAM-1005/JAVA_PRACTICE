@@ -27,6 +27,6 @@ public class DifferEvenOdd {
 
         int number = sc.nextInt();
 
-        System.out.println("The biggest digit is :"+DiffEvneOdd(number));
+        System.out.println("The Difference digit of Even and Odd  is :"+DiffEvneOdd(number));
 }
 }
