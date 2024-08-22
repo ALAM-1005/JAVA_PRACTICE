@@ -1,5 +1,5 @@
 /**
- * 
+ *  Define a method to return the biggest digit from the number. 
  */
 
 package Programming;
