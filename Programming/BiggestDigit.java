@@ -22,6 +22,8 @@ public class BiggestDigit {
     
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter the number ");
+
         int number = sc.nextInt();
 
         System.out.println(getMaxDigit(number));
