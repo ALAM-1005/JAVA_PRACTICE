@@ -26,7 +26,7 @@ public class BiggestDigit {
 
         int number = sc.nextInt();
 
-        System.out.println(""+getMaxDigit(number));
+        System.out.println("The biggest digit is :"+getMaxDigit(number));
 }
     
 
