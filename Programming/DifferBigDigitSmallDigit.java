@@ -29,9 +29,6 @@ public class DifferBigDigitSmallDigit {
             return minDigit;
         }
 
-
-
-
     public static int getDiffMaxAndMin(int number) {
         int maxDigit = getMaxDigit(number);
         int minDigit = getMinDigit(number);
@@ -46,7 +43,7 @@ public class DifferBigDigitSmallDigit {
 
         int number = sc.nextInt();
 
-        System.out.println("The biggest digit is :"+getDiffMaxAndMin(number));
+        System.out.println("The Difference digit of Number  is :"+getDiffMaxAndMin(number));
 }
     
 }

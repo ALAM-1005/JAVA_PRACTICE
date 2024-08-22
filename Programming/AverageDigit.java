@@ -25,7 +25,7 @@ public class AverageDigit {
 
         int number = sc.nextInt();
 
-        System.out.println("The biggest digit is :"+getAverageOfDigits(number));
+        System.out.println("The Average digit is :"+getAverageOfDigits(number));
 }
     
 }
