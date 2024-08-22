@@ -24,7 +24,7 @@ public class SmallestDigit {
 
         int number = sc.nextInt();
 
-        System.out.println("The biggest digit is :"+getMinDigit(number));
+        System.out.println("The Smallest digit is :"+getMinDigit(number));
 }
     
 }
