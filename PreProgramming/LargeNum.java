@@ -1,3 +1,4 @@
+package PreProgramming;
 import java.util.Scanner;
 
 // This Program to Check Greater Number among three Number

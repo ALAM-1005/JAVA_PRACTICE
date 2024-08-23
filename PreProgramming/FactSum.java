@@ -1,3 +1,4 @@
+package PreProgramming;
 
  /**
  * Define a method to find sumation of  Factors of given Number.

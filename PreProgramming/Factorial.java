@@ -1,3 +1,4 @@
+package PreProgramming;
 /**
  * DAFTF the product of n natural number
  * factorial

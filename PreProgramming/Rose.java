@@ -1,3 +1,4 @@
+package PreProgramming;
 class Rose{
 
     int price = 50;   // global Variable

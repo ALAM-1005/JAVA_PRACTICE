@@ -1,3 +1,4 @@
+package PreProgramming;
 /**
  * degine a program to print 10 natural number
  */

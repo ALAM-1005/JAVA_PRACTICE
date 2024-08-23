@@ -1,3 +1,4 @@
+package PreProgramming;
 /**
  * Write a java program factorial each digit in given number.
  */

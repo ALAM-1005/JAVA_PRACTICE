@@ -1,3 +1,4 @@
+package PreProgramming;
 /**
  * DAMTF first and Last digit sumation and in between digit Sumation.
  * 

@@ -1,3 +1,4 @@
+package PreProgramming;
 import java.util.Scanner;
 
 public class ProductNum {

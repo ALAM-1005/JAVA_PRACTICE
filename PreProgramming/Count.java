@@ -1,9 +1,12 @@
+package PreProgramming;
 /**
- * DAM to return sumation of each digit 
+ * DAMT count no.of digit in the given Number
  */
+
 import java.util.Scanner;
 
-public class SumDigit {
+public class Count {
+    
     public static void main(String[] args) {
         Scanner sc =  new Scanner(System.in);
 
@@ -13,25 +16,20 @@ public class SumDigit {
         
         int n = sc.nextInt();
 
-        sumDigit(n);
+        CountNo(n);
 
-        System.out.println(sumDigit(n));
 
     }
+    static void CountNo(int n){
 
-    static int sumDigit(int n){
-
-        int sum = 0;
-
+        int Count = 0;
         do{
-
-            sum += n%10;
-
-            n = n/10;
-
+            Count++;
+            n/=10;
         }while(n!=0);
 
-        return sum;
+        System.out.println("Count  Of Digit is :"+Count);
     }
+
     
 }

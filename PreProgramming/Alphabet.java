@@ -1,3 +1,4 @@
+package PreProgramming;
 /**
  * Define a methd to display upper case and lower case of alphabet .
  */

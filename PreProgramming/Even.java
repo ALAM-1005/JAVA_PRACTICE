@@ -1,11 +1,12 @@
+package PreProgramming;
 /**
- * Define a method to display Odd Number b/w the limits(user Enter Number )
+ * Define a method to display Even Number b/w the limits(user Enter Number )
  * 
  */
 
  import java.util.Scanner;
 
-class Odd {
+class Even {
 
     public static void main(String[] args) {
         
@@ -23,8 +24,8 @@ class Odd {
         for(;a<=b;a++)         
         {
 
-            if(a%2 == 1)
-            System.out.println(a+" ODD ");
+            if(a%2 == 0)
+            System.out.println(a+" Even");
         }
 
     }
