@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module Abstract_Program {
-}
