@@ -1,4 +1,7 @@
 package Programming;
+
+
+
 public class HappyNum1 {
 
     static boolean isHappy(int n){
