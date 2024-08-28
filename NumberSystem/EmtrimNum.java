@@ -31,6 +31,8 @@ public class EmtrimNum {
         return rev;
     }
 
+
+    
     static boolean isPalindrone(int num){
 
         return num == reverse(num);
