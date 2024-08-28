@@ -1,6 +1,6 @@
 package Programming;
 
-
+import java.util.Scanner;
 
 public class HappyNum1 {
 
@@ -39,7 +39,14 @@ public class HappyNum1 {
 
     public static void main(String[] args) {
     
+        Scanner scan = new Scanner(System.in);
 
+        System.out.println("Enter the Number");
+        int n =  scan.nextInt();
+
+        int hc = countHappy(n);
+
+        System.out.println("No of happy NUmber with in "+n+"is"+hc);
 
     }
     
