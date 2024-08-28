@@ -4,6 +4,20 @@ package Programming;
 
 public class HappyNum1 {
 
+    static int countHappy(int n){
+
+        int count = 0;
+
+        for(int i =1;i<=n;i++){
+
+            boolean rs = isHappy(n);
+            if (rs) {
+               count++; 
+            }
+        }
+         return count;
+    }
+
     static boolean isHappy(int n){
 
         while (n>9) {
@@ -26,15 +40,6 @@ public class HappyNum1 {
     public static void main(String[] args) {
     
 
-
-        for(int i = 1; i<=100;i++){
-    
-            boolean rs = isHappy(i);
-    
-            if(rs)
-                System.out.print(i+" ");
-    
-      }
 
     }
     
