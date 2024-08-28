@@ -1,9 +1,3 @@
-package Programming;
-
-public class Happy {
-    
-
-    package NumberSystem;
 
 import java.util.Scanner;
 
@@ -42,6 +36,4 @@ public class Happy {
     }
     
     
-}
-
 }
