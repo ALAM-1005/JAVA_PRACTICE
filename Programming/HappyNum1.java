@@ -18,7 +18,7 @@ public class HappyNum1 {
          return count;
     }
 
-    static boolean isHappy(int n){
+    static int isHappy(int n){
 
         while (n>9) {
 
@@ -42,7 +42,7 @@ public class HappyNum1 {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter the Number");
-        
+
         int n =  scan.nextInt();
 
 
