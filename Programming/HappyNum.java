@@ -1,7 +1,7 @@
 package Programming;
-import java.util.Scanner;
 
-public class Happy {
+
+public class HappyNum {
 
     static boolean isHappy(int n){
 
@@ -23,16 +23,18 @@ public class Happy {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Number");
-        int n = sc.nextInt();
-        boolean rs = isHappy(n);
-        if (rs) {
-            System.out.println(n+"is a Happy Number");
-        }
-        else{
-            System.out.println(n+"is not a happy Number");
-        }
+    
+
+
+        for(int i = 1; i<=100;i++){
+    
+            boolean rs = isHappy(i);
+    
+            if(rs)
+                System.out.print(i+" ");
+    
+      }
+
     }
     
     
