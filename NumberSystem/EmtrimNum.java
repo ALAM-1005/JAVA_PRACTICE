@@ -13,9 +13,9 @@ public class EmtrimNum {
                 return false;
             }
 
-            
+            return true;
         }
-        return true;
+        
     }
 
     static int reverse(int n){
@@ -43,6 +43,8 @@ public class EmtrimNum {
 
         return isPrime(n)  &&  isPrime(reverse(n));
       }
+public static void main(String[] args) {
+    
 
 
         for(int i = 1; i<=100;i++){
@@ -52,7 +54,7 @@ public class EmtrimNum {
             if(rs)
                 System.out.print(i+" ");
     
-          
-        }
       }
+
+    }
 }
