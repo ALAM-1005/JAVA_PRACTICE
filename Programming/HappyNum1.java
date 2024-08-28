@@ -46,7 +46,7 @@ public class HappyNum1 {
 
         int hc = countHappy(n);
 
-        System.out.println("No of happy NUmber with in "+n+"is"+hc);
+        System.out.print("No of happy NUmber with in "+n+"is"+hc);
 
     }
     
