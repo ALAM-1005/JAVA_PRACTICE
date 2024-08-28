@@ -17,7 +17,7 @@ public class HappyNum {
 
             }while(n!=0);
 
-            n=sum;
+           return  n==sum;
         }
 
         return n == 1 || n== 7;

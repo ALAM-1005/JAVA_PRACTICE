@@ -12,10 +12,9 @@ public class EmtrimNum {
             if(n%i == 0){
                 return false;
             }
-
-            return true;
+            
         }
-        
+        return true;
     }
 
     static int reverse(int n){
