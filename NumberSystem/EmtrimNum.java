@@ -32,7 +32,7 @@ public class EmtrimNum {
     }
 
 
-    
+
     static boolean isPalindrone(int num){
 
         return num == reverse(num);
@@ -41,11 +41,10 @@ public class EmtrimNum {
 
       static boolean isEmtrim(int n){
 
-        return isPrime(n)  &&  isPrime(reverse(n));
+        return isPrime(n)  &&  isPrime(reverse(n)) || isPrime(isPalindrone(n));
       }
 
 
-      public static void main(String[] args) {
         for(int i = 1; i<=100;i++){
     
             boolean rs = isEmtrim(i);
