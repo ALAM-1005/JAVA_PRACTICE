@@ -4,21 +4,21 @@ import java.util.Scanner;
 
 public class HappyNum1 {
 
-    static int countHappy(int n){
+    // static int countHappy(int n){
 
-        int count = 0;
+    //     int count = 0;
 
-        for(int i =1;i<=n;i++){
+    //     for(int i =1;i<=n;i++){
 
-            boolean rs = isHappy(n);
-            if (rs) {
-               count++; 
-            }
-        }
-         return count;
-    }
+    //         boolean rs = isHappy(n);
+    //         if (rs) {
+    //            count++; 
+    //         }
+    //     }
+    //      return count;
+    // }
 
-    static int isHappy(int n){
+    static boolean  isHappy(int n){
 
         while (n>9) {
 
