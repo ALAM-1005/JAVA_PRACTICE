@@ -1,4 +1,4 @@
-
+package Programming;
 import java.util.Scanner;
 
 public class Happy {
