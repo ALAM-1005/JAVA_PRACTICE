@@ -42,7 +42,9 @@ public class HappyNum1 {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter the Number");
+        
         int n =  scan.nextInt();
+
 
         int hc = countHappy(n);
 
