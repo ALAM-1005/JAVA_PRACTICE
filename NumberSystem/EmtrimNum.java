@@ -41,7 +41,7 @@ public class EmtrimNum {
 
       static boolean isEmtrim(int n){
 
-        return isPrime(n)  &&  isPrime(reverse(n)) || isPrime(isPalindrone(n));
+        return isPrime(n)  &&  isPrime(reverse(n));
       }
 
 
