@@ -1,5 +1,5 @@
 package Programming;
-public class HappyNum1 {
+public class Happy1 {
 
     static boolean isHappy(int n){
 
