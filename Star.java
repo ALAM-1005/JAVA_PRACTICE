@@ -7,7 +7,9 @@ public static void main(String[] args) {
 
     int n = sc.nextInt();
 
-    for()
+    for(int i = 1;i<=n;i++){
+        
+    }
 }
     
 }
