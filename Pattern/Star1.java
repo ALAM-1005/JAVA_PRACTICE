@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * Star  programming of start petter design
  */
-public class Star {
+public class Star1 {
 public static void main(String[] args) {
     Scanner sc  = new Scanner (System.in);
 
