@@ -4,7 +4,7 @@ package Pattern;
 import java.util.Scanner;
 
 /**
- * Star
+ * Star  programming 
  */
 public class Star {
 
