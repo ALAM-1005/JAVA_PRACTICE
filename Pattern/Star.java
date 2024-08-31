@@ -2,7 +2,7 @@ package Pattern;
 import java.util.Scanner;
 
 /**
- * Star  programming 
+ * Star  programming of start petter design
  */
 public class Star {
 
