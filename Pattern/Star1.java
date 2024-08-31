@@ -12,7 +12,7 @@ public class Star1 {
 		    int n = sc.nextInt();
 
 		    for(int i=1;i<=n;i++){
-		        System.out.print("*"+" ");
+		        System.out.print("*"+" ");  // one line print
 		    }
 
 		    sc.close();
