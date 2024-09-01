@@ -29,7 +29,7 @@ public class PerfectNum {
 
         if (rs) {
 
-            System.out.println(n+"is a perfect Number  "+rs);
+            System.out.println(n+"is a perfect Number");
             
         }
         else{
