@@ -10,17 +10,15 @@ public class PerfectNum {
 
         int sum = 0;
         for(int i=1;i<=n/2;i++){
+
             if(n%i == 0){
                 sum = sum+i;
             }
         }
 
-        return n == sum;
+        return sum ==n;
     }
 
-
-    
-    
 
     public static void main(String[] args) {
         Scanner scan =new Scanner(System.in);
@@ -37,6 +35,15 @@ public class PerfectNum {
         else{
             System.out.println("is not a perfect number");
         }
+
+        // for(int i =1;i<=100;i++){
+        //     if(isPerfect(i)){
+        //         System.out.println(i+" ");
+        //     }
+       
+        // }
+
+
     }
 }
     
