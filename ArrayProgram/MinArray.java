@@ -12,7 +12,6 @@ public class MinArray {
 
  
         }
-
         return sum;
      }
 
