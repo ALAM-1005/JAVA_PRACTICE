@@ -1,7 +1,7 @@
 package ArrayProgram;
 import java.util.Scanner;
 public class DbleTypeArray {
-    static double getSmallest(int[] x){
+    static double getSmallest(double[] x){
 
         int small = Integer.MAX_VALUE;
 
