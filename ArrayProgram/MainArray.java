@@ -1,4 +1,4 @@
-
+package JAVA_PRACTICE.ArrayProgram;
 class MainArray{
 
     public static void main(String[] args) {
