@@ -45,6 +45,8 @@ public class MinArray {
         }
 
 
+        System.out.println("-----------------------------------------------");
+
         int sm = getSmallest(ar);
 
         System.out.println("Smallest element in array is :"+sm);
