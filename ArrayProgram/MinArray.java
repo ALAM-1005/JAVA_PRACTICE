@@ -7,7 +7,7 @@ public class MinArray {
     {
         int sum = 0;
 
-        for(int i=0;i<=x.length;i++){
+        for(int i=0;i<x.length;i++){
             sum = sum+x[i];
 
  
