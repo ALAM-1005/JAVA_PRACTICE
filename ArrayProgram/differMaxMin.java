@@ -32,6 +32,20 @@ public class differMaxMin {
 
             System.out.print("["+ar[i]+"] ");
         }
+        System.out.println();
+
+        System.out.println("-----------------------------------------------");
+
+        int diff = differenceMinMax(ar);
+
+        System.out.println("Smallest element in array is :"+diff);
+
+
+
     }
+
+
+
     
+
 }
