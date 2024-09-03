@@ -9,6 +9,12 @@ class MainArray{
 
 
         System.out.println("No of elements :"+ar.length);
+
+        for (int i =0;i<ar.length;i++){
+
+            System.out.println(i+"--->"+ar[i]);
+
+        }
     }
 
 
