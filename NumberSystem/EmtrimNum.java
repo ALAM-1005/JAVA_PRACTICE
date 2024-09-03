@@ -1,4 +1,4 @@
-package JAVA_PRACTICE.NumberSystem;
+package JAVA_PRACTICE.NumberSystem;  // package name with fullyQualifiedClassName
 
 public class EmtrimNum {
 
