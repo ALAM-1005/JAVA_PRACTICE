@@ -5,7 +5,7 @@ public class differMaxMin {
 
     static int differenceMinMax(int []x){
 
-        return MaxArray - MinArray;
+        return MaxArray.getbiggest(x) - MinArray.getSmallest(x);
     }
 
 
