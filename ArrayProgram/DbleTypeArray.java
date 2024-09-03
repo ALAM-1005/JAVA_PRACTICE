@@ -1,9 +1,13 @@
 package ArrayProgram;
 import java.util.Scanner;
+
+
 public class DbleTypeArray {
+
+
     static double getSmallest(double[] x){
 
-        int small = Integer.MAX_VALUE;
+        double small = Integer.MAX_VALUE;
 
         for(int i = 0;i<x.length;i++){
 
