@@ -8,7 +8,9 @@ class MainArray{
 
         System.out.println(ar);
 
-        System.out.println("No of elements :"+ar.length);
+        System.out.println("No of elements :"+ar.length);  
+
+        //ar.length++ & ar.lenght --  ---> Not possible (used) in java array becoause length is a final instance variable. 
 
         for (int i =0;i<ar.length;i++){
 
