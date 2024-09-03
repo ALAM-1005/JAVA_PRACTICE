@@ -1,4 +1,4 @@
-package JAVA_PRACTICE.ArrayProgram;
+
 
 /**
  * MainArray
