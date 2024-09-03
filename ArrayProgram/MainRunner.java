@@ -1,4 +1,4 @@
-
+package ArrayProgram;
 
 /**
  * MainArray
