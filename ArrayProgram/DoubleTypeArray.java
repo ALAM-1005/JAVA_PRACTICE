@@ -1,9 +1,9 @@
 package ArrayProgram;
 import java.util.Scanner;
 public class DoubleTypeArray {
-    static int getbiggest(int[] x){
+    static double getbiggest(double[] x){
 
-        int big = Integer.MIN_VALUE;
+        double big = Integer.MIN_VALUE;
 
         for(int i = 0;i<x.length;i++){
 
@@ -23,9 +23,9 @@ public class DoubleTypeArray {
 
         System.out.println("Enter the Size of an Arrays  : ");
 
-        int n = sc.nextInt();
+        double n = sc.nextDouble();
 
-        int[] ar = new int[n];
+        double[] ar = new double[n];
 
         System.out.println ("Enter"+n+"Values");
 
@@ -44,7 +44,7 @@ public class DoubleTypeArray {
 
         System.out.println("-----------------------------------------------");
 
-        int sm = getbiggest(ar);
+        double sm = getbiggest(ar);
 
         System.out.println("Smallest element in array is :"+sm);
 
