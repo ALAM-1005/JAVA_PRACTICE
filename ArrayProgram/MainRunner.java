@@ -3,7 +3,7 @@ package JAVA_PRACTICE.ArrayProgram;
 /**
  * MainArray
  */
-public class MainArray {
+public class MainRunner {
 
     
 
