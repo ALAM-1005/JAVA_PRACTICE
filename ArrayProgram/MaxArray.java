@@ -9,14 +9,14 @@ public class MaxArray {
 
         for(int i = 0;i<x.length;i++){
 
-            if ((x[i]<small)) {
+            if ((x[i]>big)) {
                 
-                small = x[i];
+                big = x[i];
             }
 
             
         }
-        return small;
+        return big;
     }
 
     public static void main(String[] args) {
