@@ -22,7 +22,7 @@ public class SumArray {
 
         int sm = sumOfArray(ar);
 
-        System.out.println(sm);
+        System.out.println("Sum of Array elements is : "+sm);
 
 
 
