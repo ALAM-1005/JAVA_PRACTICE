@@ -3,7 +3,7 @@ package ArrayProgram;
 import java.util.Scanner;
 
 public class MaxArray {
-    static int getSmallest(int[] x){
+    static int getbiggest(int[] x){
 
         int big = Integer.MIN_VALUE;
 
