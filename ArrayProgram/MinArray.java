@@ -43,7 +43,7 @@ public class MinArray {
 
             System.out.print(ar[i]+"  ");
         }
-System.out.println();
+        System.out.println();
 
         System.out.println("-----------------------------------------------");
 
