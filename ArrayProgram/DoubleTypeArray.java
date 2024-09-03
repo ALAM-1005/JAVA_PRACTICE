@@ -1,7 +1,7 @@
 package ArrayProgram;
 import java.util.Scanner;
 public class DoubleTypeArray {
-    static double getbiggest(double[] x){
+    static double getbiggest(int[] x){
 
         double big = Integer.MIN_VALUE;
 
@@ -11,8 +11,6 @@ public class DoubleTypeArray {
                 
                 big = x[i];
             }
-
-            
         }
         return big;
     }
@@ -23,9 +21,9 @@ public class DoubleTypeArray {
 
         System.out.println("Enter the Size of an Arrays  : ");
 
-        double n = sc.nextDouble();
+       int n = sc.nextInt();
 
-        double[] ar = new double[n];
+        int[] ar = new int[n];
 
         System.out.println ("Enter"+n+"Values");
 
