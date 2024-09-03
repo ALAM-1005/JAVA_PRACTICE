@@ -14,7 +14,7 @@ public class InputArray {
 
         int[] ar = new int[n];
 
-        System.out.println("Enter"+n+"Values");
+        System.out.print ("Enter"+n+"Values");
 
         for(int i =0;i<ar.length;i++){
 
