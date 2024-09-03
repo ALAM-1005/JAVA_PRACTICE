@@ -17,7 +17,7 @@ public class InputArray {
         System.out.println("Enter"+n+"Values");
 
         for(int i =0;i<ar.length;i++){
-            
+
             ar[i]  = sc.nextInt();
         }
 
@@ -25,7 +25,7 @@ public class InputArray {
 
         for(int i = 0;i<ar.length;i++){
 
-            System.out.println(ar[i]+" ");
+            System.out.print("["+ar[i]+"] ");
         }
     }
     
