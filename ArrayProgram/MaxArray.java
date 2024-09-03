@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MaxArray {
     static int getSmallest(int[] x){
 
-        int small = Integer.MIN_VALUE;
+        int big = Integer.MIN_VALUE;
 
         for(int i = 0;i<x.length;i++){
 
