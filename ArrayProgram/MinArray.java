@@ -15,8 +15,9 @@ public class MinArray {
                 small = x[i];
             }
 
-            return small;
+            
         }
+        return small;
     }
 
     public static void main(String[] args) {
