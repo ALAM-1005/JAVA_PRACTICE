@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class InputArray {
 
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the Size of an Arrays  : ");
@@ -12,7 +13,7 @@ public class InputArray {
         int n = sc.nextInt();
 
         int[] ar = new int[n];
-        
+
         System.out.println("Enter"+n+"Values");
 
         for(int i =0;i<ar.length;i++){
