@@ -12,6 +12,7 @@ public class InputArray {
         int n = sc.nextInt();
 
         int[] ar = new int[n];
+        
         System.out.println("Enter"+n+"Values");
 
         for(int i =0;i<ar.length;i++){
