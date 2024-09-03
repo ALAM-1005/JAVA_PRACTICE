@@ -46,7 +46,7 @@ public class DbleTypeArray {
 
         System.out.println("-----------------------------------------------");
 
-        double sm = getbiggest(ar);
+        double sm = getSmallest(ar);
 
         System.out.println("Smallest element in array is :"+sm);
 
