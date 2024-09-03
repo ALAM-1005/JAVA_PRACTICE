@@ -1,6 +1,6 @@
 package ArrayProgram;
 
-public class MinArray {
+public class SumArray {
  
     static int sumOfArray(int[] x )
     
