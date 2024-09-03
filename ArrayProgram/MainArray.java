@@ -1,4 +1,5 @@
 package JAVA_PRACTICE.ArrayProgram;
+
 class MainArray{
 
     public static void main(String[] args) {
@@ -6,7 +7,6 @@ class MainArray{
         int [] ar = {23,57,45,67,76};
 
         System.out.println(ar);
-
 
         System.out.println("No of elements :"+ar.length);
 
