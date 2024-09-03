@@ -46,7 +46,7 @@ public class MaxArray {
 
         System.out.println("-----------------------------------------------");
 
-        int sm = getSmallest(ar);
+        int sm = getbiggest(ar);
 
         System.out.println("Smallest element in array is :"+sm);
 
