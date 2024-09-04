@@ -56,9 +56,9 @@ public class AverageArray {
 
         System.out.println("-----------------------------------------------");
 
-        double diff = Average(ar);
+        double Avg = Average(ar);
 
-        System.out.println("difference  element in array is :"+diff);
+        System.out.println("difference  element in array is :"+Avg);
     
     }
 
