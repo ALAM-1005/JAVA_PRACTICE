@@ -7,6 +7,8 @@ public class DoubleTypeArray {
 
         for(int i = 0;i<x.length;i++){
 
+            
+
             if ((x[i]>big)) {
                 
                 big = x[i];
