@@ -46,7 +46,7 @@ public class Sum {
 
         int sm = sumOfArray(ar);
 
-        System.out.println("Smallest element in array is :"+sm);
+        System.out.println("Sum of  element in array is :"+sm);
     }
 
     
