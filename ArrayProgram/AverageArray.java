@@ -37,7 +37,7 @@ public class AverageArray {
 
         int[] ar = new int[n];
 
-        System.out.print ("Enter   "+n+"  Values");
+        System.out.println ("Enter   "+n+"  Values");
 
         for(int i =0;i<ar.length;i++){
 
