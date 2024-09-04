@@ -3,8 +3,7 @@ package ArrayProgram;
 import java.util.Scanner;
 
 public class AverageArray {
-
-
+    
     static int sumOfArray(int[] x){
 
         int sum =0;
