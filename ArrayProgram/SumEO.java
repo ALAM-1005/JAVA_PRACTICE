@@ -19,5 +19,14 @@ public class SumEO {
     }
     
 
+    public static void main(String[] args) {
+        
+        int[] ar = {23,45,36,57,76};
+
+        int[] sm = sumOfEO(ar);
+
+        System.out.println("Sum of Even Number "+sm[0]);
+    }
+
     
 }
