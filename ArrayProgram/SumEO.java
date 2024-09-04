@@ -26,6 +26,7 @@ public class SumEO {
         int[] sm = sumOfEO(ar);
 
         System.out.println("Sum of Even Number "+sm[0]);
+        System.out.println("Sum of Odd Number "+sm[1]);
     }
 
     
