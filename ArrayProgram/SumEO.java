@@ -18,7 +18,6 @@ public class SumEO {
         return sum;
     }
     
-
     public static void main(String[] args) {
         
         int[] ar = {23,45,36,57,76};
