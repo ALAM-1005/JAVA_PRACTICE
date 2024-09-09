@@ -4,6 +4,7 @@ public class MergeArray {
 
     static int merge(int[]x,int[]y){
         return z;
+        
     }
 
     public static void main(String[] args) {
