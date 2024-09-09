@@ -31,6 +31,10 @@ public class MergeArray {
 
             System.out.print(c[i]+" ");
         }
+
+        System.out.println();
     }
+
+
     
 }
