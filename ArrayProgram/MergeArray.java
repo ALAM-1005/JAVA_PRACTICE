@@ -3,8 +3,8 @@ package ArrayProgram;
 public class MergeArray {
 
     static int merge(int[]x,int[]y){
+        int[] z = new int [x.length + y.length];
 
-        
         return z;
 
     }
