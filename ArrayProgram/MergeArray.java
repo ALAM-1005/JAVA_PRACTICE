@@ -11,7 +11,8 @@ public class MergeArray {
         }
 
         for(int i =0;i<y.length;i++){
-            
+
+            z[x.length + i] = y[i];
         }
 
         return z;
