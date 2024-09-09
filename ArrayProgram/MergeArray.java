@@ -2,7 +2,7 @@ package ArrayProgram;
 
 public class MergeArray {
 
-    static int merge(int[]x,int[]y){
+    static int[] merge(int[]x,int[]y){
         int[] z = new int [x.length + y.length];
 
         for(int i = 0;i<x.length;i++){
