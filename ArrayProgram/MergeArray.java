@@ -10,6 +10,10 @@ public class MergeArray {
             z[i] = x[i];
         }
 
+        for(int i =0;i<y.length;i++){
+            
+        }
+
         return z;
 
     }
