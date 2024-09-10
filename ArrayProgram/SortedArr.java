@@ -10,10 +10,11 @@ public class SortedArr {
         int i =0, j=0, k=0;
 
         while (i<a.length  && j<b.length) {
-            if(a[i] < b[i])
-            c[k++] = a[i++];
+
+            if(a[i] < b[j])
+                c[k++] = a[i++];
             else
-            c[k++] = b[j++];
+                c[k++] = b[j++];
         }
 
         while(i<a.length){
