@@ -39,7 +39,7 @@ public class ZigZagArr {
 
         int[]  b ={22,32,45,74,10};
 
-        int[] c = zigZag(a,b);
+        int[] c = zigZag(a,b);  // every arrays elements one by one strore
 
         for(int i =0;i<c.length;i++){
 
