@@ -20,7 +20,7 @@ public class ZigZagArr {
         }
         while(i<b.length){
 
-            c[k++] = a[i++];
+            c[k++] = b[j++];
         }
 
 
