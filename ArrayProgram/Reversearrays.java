@@ -24,6 +24,8 @@ public class Reversearrays {
 
         int[]  ar = {12,25,56,48,79};
 
+        System.out.println(ar[0]+" "+ar[1]);
+
         reverseArr(ar);
 
         System.out.println("Original Arrays");
