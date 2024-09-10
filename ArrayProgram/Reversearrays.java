@@ -1,5 +1,5 @@
 package ArrayProgram;
 
-public class Reverse arrays {
+public class Reversearrays {
     
 }
