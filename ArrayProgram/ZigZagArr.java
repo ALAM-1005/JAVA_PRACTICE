@@ -8,7 +8,7 @@ public class ZigZagArr {
 
         
         int i =0, j=0, k=0;
-        
+
         while (i<a.length  && j<b.length) {
             
             c[k++] = a[i++];
@@ -26,7 +26,7 @@ public class ZigZagArr {
             c[k++] = b[j++];
         }
 
-
+    return c;
 
     }
     
