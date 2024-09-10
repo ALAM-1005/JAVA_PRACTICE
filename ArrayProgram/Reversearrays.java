@@ -24,11 +24,12 @@ public class Reversearrays {
         reverseArr(ar);
 
         System.out.println("Original Arrays");
-        System.out.println(ar +" ");
+        System.out.print(ar +" ");
+        System.out.println("After the Reverse arrays");
         for(int i = 0;i<ar.length;i++){
 
-            System.out.println("After the Reverse arrays");
-            
+           
+
             System.out.print(ar[i]+ " ");
         }
     }
