@@ -4,6 +4,8 @@ public class ZigZagArr {
 
     static int[] zigZag(int[] a,int[] b){
 
+        
+
         int[] c = new int[a.length + b.length ];
 
         
@@ -30,7 +32,7 @@ public class ZigZagArr {
 
     }
 
-    
+
     public static void main(String[] args) {
         
         int[] a = {25,35,56,47,87,98,65,41};
