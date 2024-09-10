@@ -26,6 +26,10 @@ public class differMaxMin {
             ar[i]  = sc.nextInt();
         }
 
+
+
+
+        
         System.out.println("User entered Array Elements");
 
         for(int i = 0;i<ar.length;i++){
