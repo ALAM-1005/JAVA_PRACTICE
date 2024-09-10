@@ -30,6 +30,7 @@ public class MergeArr {
 
             System.out.print(c[i]+"");
         }
+    System.out.println();
 
 
     }
