@@ -2,6 +2,9 @@ package ArrayProgram;
 
 public class MergeArr {
 
+
+
+    
     public static void main(String[] args) {
         
 
@@ -12,7 +15,7 @@ public class MergeArr {
 
         for(int i =0;i<c.length;i++){
 
-            System.out.println();
+            System.out.println(c[i]+"");
         }
 
 
