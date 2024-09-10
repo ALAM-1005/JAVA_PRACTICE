@@ -18,6 +18,7 @@ public class ZigZagArr {
 
             c[k++] = a[i++];
         }
+        
         while(i<b.length){
 
             c[k++] = b[j++];
