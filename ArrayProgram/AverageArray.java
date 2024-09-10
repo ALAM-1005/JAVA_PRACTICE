@@ -41,7 +41,7 @@ public class AverageArray {
 
         for(int i =0;i<ar.length;i++){
 
-            ar[i]  = sc.nextInt();
+            ar[i]  = scan.nextInt();
         }
 
         System.out.println("User entered Array Elements");
