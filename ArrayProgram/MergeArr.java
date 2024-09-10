@@ -2,7 +2,6 @@ package ArrayProgram;
 
 public class MergeArr {
 
-
     static int[] merge(int[]x,int[] y){
         int[] z = new int[x.length + y.length];
 
