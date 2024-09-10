@@ -32,6 +32,8 @@ public class Reversearrays {
 
             System.out.print(ar[i]+ " ");
         }
+
+        System.out.println();
     }
     
 }
