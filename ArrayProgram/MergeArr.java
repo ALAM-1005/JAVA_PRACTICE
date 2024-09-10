@@ -3,11 +3,14 @@ package ArrayProgram;
 public class MergeArr {
 
     static int[] merge(int[]x,int[] y){
+        
         int[] z = new int[x.length + y.length];
 
         for(int i =0;i<x.length;i++){
+
             z[i] = x[i];
         }
+
         for(int i= 0;i<y.length;i++){
 
             z[x.length+i] = y[i];
