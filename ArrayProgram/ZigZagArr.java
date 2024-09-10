@@ -29,6 +29,8 @@ public class ZigZagArr {
     return c;
 
     }
+
+    
     public static void main(String[] args) {
         
         int[] a = {25,35,56,47,87,98,65,41};
