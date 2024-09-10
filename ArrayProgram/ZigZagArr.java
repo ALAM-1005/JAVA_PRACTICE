@@ -6,6 +6,12 @@ public class ZigZagArr {
 
         int[] c = new int[a.length + b.length ];
 
+        while (i<a.length  && j<b.length) {
+            
+            
+        }
+
+
     }
     
 }
