@@ -29,11 +29,11 @@ public class AverageArray {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter the Size of an Arrays  : ");
 
-        int n = sc.nextInt();
+        int n = scan.nextInt();
 
         int[] ar = new int[n];
 
