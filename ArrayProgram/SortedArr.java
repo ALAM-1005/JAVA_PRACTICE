@@ -1,7 +1,7 @@
 package ArrayProgram;
 
 public class SortedArr {
-    static int[] zigZag(int[] a,int[] b){
+    static int[] mergeSort(int[] a,int[] b){
 
 
 
