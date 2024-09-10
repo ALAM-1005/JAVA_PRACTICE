@@ -9,6 +9,10 @@ public class MergeArr {
         for(int i =0;i<x.length;i++){
             z[i] = x[i];
         }
+        for(int i= 0;i<y.length;i++){
+
+            z
+        }
     return z;
     }
 
