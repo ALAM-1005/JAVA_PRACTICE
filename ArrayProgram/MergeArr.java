@@ -7,7 +7,7 @@ public class MergeArr {
         int[] z = new int[x.length + y.length];
 
         for(int i =0;i<x.length;i++){
-            
+            z[i] = x[i];
         }
     return z;
     }
