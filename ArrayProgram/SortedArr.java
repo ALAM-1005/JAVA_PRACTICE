@@ -7,10 +7,9 @@ public class SortedArr {
 
         int[] c = new int[a.length + b.length ];
 
-        
         int i =0, j=0, k=0;
 
-        while (i<a.length  && j<b.length) {
+        while (a[i] < b[i]) {
             
             c[k++] = a[i++];
 
