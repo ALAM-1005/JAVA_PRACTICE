@@ -10,6 +10,11 @@ public class MergeArr {
 
         int[] c = merge(a,b);
 
+        for(int i =0;i<c.length;i++){
+
+            
+        }
+
 
     }
     
