@@ -23,7 +23,7 @@ public class Reversearrays {
         int[]  ar = {12,25,56,48,79};
         reverseArr(ar);
 
-        System.out.println();
+        System.out.println("Original Arrays");
         System.out.println(ar +" ");
         for(int i = 0;i<ar.length;i++){
 
