@@ -29,5 +29,21 @@ public class ZigZagArr {
     return c;
 
     }
+    public static void main(String[] args) {
+        
+
+        int[] a = {25,35,56,47,87,98,65,41};
+        int[]  b ={22,32,45,74,10};
+
+        int[] c = merge(a,b);
+
+        for(int i =0;i<c.length;i++){
+
+            System.out.print(c[i]+" ");
+        }
+    System.out.println();
+
+
+    }
     
 }
