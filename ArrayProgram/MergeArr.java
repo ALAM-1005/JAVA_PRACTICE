@@ -11,7 +11,7 @@ public class MergeArr {
         }
         for(int i= 0;i<y.length;i++){
 
-            z
+            z[x.length+i] = y[i];
         }
     return z;
     }
