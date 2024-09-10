@@ -13,6 +13,8 @@ public class Reversearrays {
 
             x[f] = x[l];
 
+            x[l] = temp;
+
             f++;
             l--;
         }
