@@ -21,10 +21,12 @@ public class Reversearrays {
         
 
         int[]  ar = {12,25,56,48,79};
+
         reverseArr(ar);
 
         System.out.println("Original Arrays");
-        System.out.print(ar +" ");
+
+
         System.out.println("After the Reverse arrays");
         for(int i = 0;i<ar.length;i++){
 
