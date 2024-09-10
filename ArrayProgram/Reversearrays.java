@@ -6,6 +6,7 @@ public class Reversearrays {
     static void reverseArr(int[] x){
 
         int f =0, l = x.length -1;
+        
         while (f<l) {
             
             int temp = x[f];
