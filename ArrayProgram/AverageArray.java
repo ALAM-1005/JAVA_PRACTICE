@@ -26,6 +26,7 @@ public class AverageArray {
 
         return sum/x.length;
     }
+    
 
     public static void main(String[] args) {
 
