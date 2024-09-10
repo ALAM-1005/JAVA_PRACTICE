@@ -3,8 +3,13 @@ package ArrayProgram;
 public class MergeArr {
 
 
+    static int[] merge(int[]x,int[] y){
 
-    
+
+    }
+
+
+
     public static void main(String[] args) {
         
 
