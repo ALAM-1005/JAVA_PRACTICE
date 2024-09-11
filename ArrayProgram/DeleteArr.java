@@ -2,7 +2,7 @@ package ArrayProgram;
 
 public class DeleteArr {
 
-    static int[] DeleteEle(int[] x , int ele,int in){
+    static int[] DeleteEle(int[] x ,int in){
 
         if(in<0 || in>=x.length)
         
