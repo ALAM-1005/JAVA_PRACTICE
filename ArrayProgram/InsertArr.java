@@ -21,6 +21,8 @@ public class InsertArr {
     }
 
     public static void main(String[] args) {
+
+        
         int[] ar = {25,36,46,52,48,76};
 
         ar= insertEle(ar, 32, 2);
