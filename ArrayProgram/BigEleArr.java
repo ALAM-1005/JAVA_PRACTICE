@@ -29,7 +29,7 @@ public class BigEleArr {
 
         int[] ar = {22,33,44,55,66};
 
-        int bg = nthBiggest(ar, 4);
+        int bg = nthBiggest(ar, 1);
 
         System.out.println("4th Biggest elements :"+bg);
      }
