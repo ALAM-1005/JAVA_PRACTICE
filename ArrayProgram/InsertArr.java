@@ -8,6 +8,7 @@ public class InsertArr {
             return null;
 
         int [] y = new int[x.length + 1];
+        
          y[in] = ele;
 
          for(int i= 0;i<x.length;i++){
@@ -40,7 +41,7 @@ public class InsertArr {
 
                 System.out.print(ar[i]+" ");
 
-                
+
             }
         }
     }
