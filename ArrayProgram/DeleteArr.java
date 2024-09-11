@@ -17,7 +17,7 @@ public class DeleteArr {
             if(i < in)
                 y[i] = x[i];
             else
-                y[i+1] = x[i];
+                y[i] = x[i + 1];
          }
          return y;
     }
