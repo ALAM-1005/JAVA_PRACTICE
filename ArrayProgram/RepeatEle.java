@@ -19,7 +19,7 @@ public class RepeatEle {
                         count++;
                         rs[j] = true;
                     }
-                    System.out.println(x[i +"present at "+count]);
+                    System.out.println(x[i ]+"present at "+counts);
                 } 
             } 
            
