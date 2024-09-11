@@ -34,8 +34,10 @@ public class InsertArr {
         {
             System.out.println("Inserted Arrays");
 
-            
+
             for(int i=0;i<ar.length;i++){
+
+                
                 System.out.print(ar[i]+" ");
             }
         }
