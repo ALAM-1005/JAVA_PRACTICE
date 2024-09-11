@@ -51,7 +51,8 @@ public class DeleteArr {
 
             }
 
-        }System.out.println();
+        }
+        System.out.println();
 
     }
     
