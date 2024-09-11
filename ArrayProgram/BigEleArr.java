@@ -7,6 +7,8 @@ public class BigEleArr {
         for(int i =0;i<x.length;i++){
 
             int count = 0;
+
+            
             for(int j =0;j<x.length;j++){
 
                 if(x[i]>x[j]{
@@ -17,7 +19,7 @@ public class BigEleArr {
             }
         }
 
-        
+
         System.out.println("No Biggest Number");
 
         return 0;
