@@ -30,7 +30,9 @@ public class InsertInx {
 
         int[] ar = {25,36,46,52,48,76};
 
-        ar= insertEle(ar, 32, 2);
+        int[] br = {11,22,33};
+
+        ar= insertArr(ar,br,2);
 
         if(ar == null)
           System.out.println("Insertion Failled");
