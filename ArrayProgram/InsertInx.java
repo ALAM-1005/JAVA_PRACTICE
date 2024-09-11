@@ -22,7 +22,7 @@ public class InsertInx {
             else
                 z[i+y.length] = x[i];
          }
-         return y;
+         return z;
     }
 
     public static void main(String[] args) {
