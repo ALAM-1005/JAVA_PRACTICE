@@ -27,6 +27,7 @@ public class DeleteArr {
 
         int[] ar = {25,36,46,52,48,76};
 
+        
         ar= DeleteEle(ar, 2);
 
         if(ar == null)
