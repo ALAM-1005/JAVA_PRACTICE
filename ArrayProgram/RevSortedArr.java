@@ -6,7 +6,7 @@ public class RevSortedArr {
 
         int[] c = new int[a.length + b.length ];
 
-        int i =a.length-1, j=b.length -1, k=0;
+        int i =a.length-1, j=b.length -1,k=0;
 
         while (i>=0 && j>=0) {
 
@@ -16,12 +16,12 @@ public class RevSortedArr {
                 c[k++] = b[j--];
         }
 
-        while(i<a.length){
+        while(i>=0){
 
             c[k++] = a[i--];
         }
 
-        while(i<b.length){
+        while(j>=0){
 
             c[k++] = b[j--];
         }
