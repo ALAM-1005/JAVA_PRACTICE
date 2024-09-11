@@ -12,9 +12,9 @@ public class BigEleArr {
 
                     count++;
                 }
-                if(count == n-1)
 
-                return x[i];
+                if(count == n-1)
+                      return x[i];
             }
         }
 
