@@ -5,7 +5,7 @@ public class RepeatEle {
     static void printFrequence(int[] x){
 
         boolean [] rs = new boolean[x.length];
-        
+
         for(int i =0;i<x.length;i++){
 
             if(rs[i] == false){
@@ -17,9 +17,12 @@ public class RepeatEle {
                     if(x[i] == x[j])
                     {
                         count++;
+                        rs[j] = true;
                     }
-                }
+                    System.out.println(x[i +"present at "+count]);
+                } 
             } 
+           
         }
     }
     
