@@ -17,7 +17,7 @@ public class DeleteArr {
             if(i < in)
 
                 y[i] = x[i];
-                
+
             else
 
 
@@ -35,6 +35,7 @@ public class DeleteArr {
         ar= DeleteEle(ar, 2);
 
         if(ar == null)
+        
           System.out.println("Insertion Failled");
 
         else
