@@ -10,8 +10,6 @@ public class DeleteArr {
 
         int [] y = new int[x.length - 1];
 
-       
-
          for(int i= 0;i<x.length - 1;i++){
 
             if(i < in)
