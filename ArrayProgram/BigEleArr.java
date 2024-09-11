@@ -20,10 +20,8 @@ public class BigEleArr {
                 return x[i];
             }
         }
-
-
+        
         System.out.println("No Biggest Number");
-
         return 0;
     }
 
