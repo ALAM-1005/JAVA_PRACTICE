@@ -35,7 +35,7 @@ public class DeleteArr {
         ar= DeleteEle(ar, 2);
 
         if(ar == null)
-        
+
           System.out.println("Insertion Failled");
 
         else
@@ -50,7 +50,9 @@ public class DeleteArr {
 
 
             }
-        }
+
+        }System.out.println();
+
     }
     
 }
