@@ -8,14 +8,16 @@ public class BigEleArr {
             int count = 0;
             for(int j =0; j<x.length; j++){
 
-                if(x[i] > x[j]){
+                if(x[j] > x[i]){
 
                     count++;
                 }
 
-                if(count == n-1)
-                      return x[i];
+                
             }
+
+            if(count == n-1)
+                      return x[i];
         }
 
         System.out.println("No Biggest Number");
