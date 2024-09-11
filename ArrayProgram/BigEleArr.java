@@ -5,8 +5,9 @@ public class BigEleArr {
     static int nthBiggest(int[] x,int n){
 
         for(int i =0; i<x.length; i++){
-            
+
             int count = 0;
+            
             for(int j =0; j<x.length; j++){
 
                 if(x[j] > x[i]){
