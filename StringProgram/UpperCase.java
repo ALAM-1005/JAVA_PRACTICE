@@ -18,7 +18,7 @@ public class UpperCase {
 
 
         }
-        str = new String(ch);
+        str = new String(ch);  // Assign into string and pass the Character in string method
 
 
         System.out.println(str);
