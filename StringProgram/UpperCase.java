@@ -7,7 +7,7 @@ public class UpperCase {
 
         String str = "Java";
 
-        char[] ch = str.toCharArray();
+        char[] ch = str.toCharArray();  // string to char
 
         for(int i = 0;i<ch.length;i++){
 
@@ -20,7 +20,7 @@ public class UpperCase {
         }
         str = new String(ch);
 
-        
+
         System.out.println(str);
     }
     
