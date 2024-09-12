@@ -5,7 +5,7 @@ public class UpperCase {
     public static void main(String[] args) {
 
 
-        String str = "Java";
+        String str = "1020";
 
         char[] ch = str.toCharArray();  // string to char
         int sum =0;
