@@ -3,6 +3,8 @@ package StringProgram;
 public class UpperCase {
 
     public static void main(String[] args) {
+
+        
         String str = "Java";
         char[] ch = str.toCharArray();
 
