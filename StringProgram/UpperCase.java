@@ -19,6 +19,7 @@ public class UpperCase {
 
         }
         str = new String(ch);
+
         
         System.out.println(str);
     }
