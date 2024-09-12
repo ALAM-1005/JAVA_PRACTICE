@@ -5,7 +5,7 @@ public class VovelConst {
     public static void main(String[] args) {
 
 
-        String str = "Jave";
+        String str = "Java";
 
         char[] ch = str.toCharArray();  // string to char
 
@@ -24,7 +24,8 @@ public class VovelConst {
         str = new String(ch);  // Assign into string and pass the Character in string method
 
 
-        System.out.println(str);
+        System.out.println(c);
+        System.out.println(v);
     }
     
 }
