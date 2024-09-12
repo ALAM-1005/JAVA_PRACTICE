@@ -13,7 +13,7 @@ public class UpperCase {
 
             if(ch[i]>='a' && ch[i]<='z'){
 
-                ch[i] = (char)(ch[i]-32);
+                ch[i] = (char)(ch[i]-32);  // convert into the Upper case letter
             }
 
 
