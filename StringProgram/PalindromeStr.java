@@ -1,7 +1,8 @@
 package StringProgram;
 
 public class PalindromeStr {
-static String Palindrome(String[] str)
+static boolean isPalindrome(String str)
+
     public static void main(String[] args) {
         String s = "Malayalam";
 
