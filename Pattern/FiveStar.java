@@ -16,6 +16,7 @@ public class FiveStar {
                 System.out.print("*"+" ");
             }
         }
+        
 
         System.out.println();
     }
