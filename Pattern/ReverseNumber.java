@@ -19,6 +19,7 @@ public class ReverseNumber {
             System.out.print(j+" ");
 
         }
+        
         System.out.println();
 
 
