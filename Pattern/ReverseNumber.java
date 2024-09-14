@@ -14,7 +14,6 @@ public class ReverseNumber {
         int n  = sc.nextInt();
 
         for(int i =0;i<=n;i++){
-
             for(int j =n-1;j>=0;j--) {
 
             System.out.print(j+" ");
@@ -22,7 +21,7 @@ public class ReverseNumber {
         }
 
         System.out.println();
-        
+
     }
 }
     
