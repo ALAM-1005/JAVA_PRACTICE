@@ -17,7 +17,7 @@ public class Number {
         for(int i = 1;i<=n;i++){
 
             for(int j =1;j<=n;j++){
-
+                // System.out.println(k+" ");
                 // System.out.printf("%3d ",k);
                 System.out.printf("%2d ", k);
                 k++;
