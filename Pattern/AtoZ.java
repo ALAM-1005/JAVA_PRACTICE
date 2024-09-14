@@ -17,7 +17,7 @@ public class AtoZ {
         for(int i = 1;i<=n;i++){
 
             for(int j =1;j<=n;j++){
-                // System.out.println(k+" ");
+                 System.out.println(k+" ");
                 k++;
             }
             System.out.println();
