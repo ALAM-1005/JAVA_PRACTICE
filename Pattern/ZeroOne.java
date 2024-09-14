@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ZeroOne {
 
      public static void main(String[] args) {
+        s
 
         Scanner sc  = new Scanner(System.in);
 
@@ -17,7 +18,7 @@ public class ZeroOne {
         for(int i = 1;i<=n;i++){
 
             for(int j =1;j<=n;j++){
-                
+
                 System.out.println(k%2+" ");
                 
                 k++;
