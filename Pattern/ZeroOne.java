@@ -18,7 +18,7 @@ public class ZeroOne {
 
             for(int j =1;j<=n;j++){
 
-                System.out.println(k%2+" ");
+                System.out.println(k%2+" ");  // remainder
 
                 k++;  //increment
             }
