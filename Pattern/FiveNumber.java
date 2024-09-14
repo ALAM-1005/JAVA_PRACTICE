@@ -6,7 +6,7 @@ public class FiveNumber {
     
 
     public static void main(String[] args) {
-        initial
+
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter  the Number");
