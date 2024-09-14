@@ -21,12 +21,13 @@ public class AtoZ {
                  System.out.print((char)(k+64)+" ");
 
                 k++;
-                
+
                 if (k == 27) {
                     
                     k =1;
                 }
             }
+            
             System.out.println();
         }
     }
