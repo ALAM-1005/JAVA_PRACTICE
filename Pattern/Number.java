@@ -17,6 +17,7 @@ public class Number {
             for(int j =1;j<=n;j++){
 
                 System.out.print(k +" ");
+                k++;
             }
             System.out.println();
         }
