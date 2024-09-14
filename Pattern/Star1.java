@@ -15,6 +15,8 @@ public class Star1 {
 		        System.out.print("*"+" ");  // one line print
 		    }
 
+			System.out.println();
+
 		    sc.close();
 		
 		}
