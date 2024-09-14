@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class ZeroOne {
 
      public static void main(String[] args) {
-        s
-
+        
         Scanner sc  = new Scanner(System.in);
 
         System.out.println("Enter  the Number");
