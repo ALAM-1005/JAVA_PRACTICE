@@ -9,6 +9,8 @@ public class FiveStar {
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter  the Number");
+
         int n = sc.nextInt();
 
         for(int i = 1;i<=n;i++){
