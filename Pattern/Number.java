@@ -12,8 +12,8 @@ public class Number {
 
         int n = sc.nextInt();
 
-        int k =0;
-        
+        int k =1;
+
         for(int i = 1;i<=n;i++){
 
             for(int j =1;j<=n;j++){
