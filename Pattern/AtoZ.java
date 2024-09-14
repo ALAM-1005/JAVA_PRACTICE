@@ -18,8 +18,9 @@ public class AtoZ {
 
             for(int j =1;j<=n;j++){
 
-                
+
                  System.out.print((char)(k+64)+" ");
+                 
                 k++;
 
                 if (k == 27) {
