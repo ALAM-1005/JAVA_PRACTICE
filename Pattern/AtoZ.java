@@ -18,8 +18,6 @@ public class AtoZ {
 
             for(int j =1;j<=n;j++){
                 // System.out.println(k+" ");
-                // System.out.printf("%3d ",k);
-                System.out.printf("%2d ", k);
                 k++;
             }
             System.out.println();
