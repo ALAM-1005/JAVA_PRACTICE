@@ -17,8 +17,13 @@ public class AtoZ {
         for(int i = 1;i<=n;i++){
 
             for(int j =1;j<=n;j++){
-                 System.out.println(k+" ");
+                 System.out.print((char)(k+64)+" ");
                 k++;
+
+                if (k == 27) {
+                    
+                    k =1;
+                }
             }
             System.out.println();
         }
