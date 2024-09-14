@@ -9,6 +9,8 @@ public class ABCDE {
 
         Scanner sc  = new Scanner(System.in);
 
+        
+
         System.out.println("Enter  the Number");
 
         int n = sc.nextInt();
