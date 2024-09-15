@@ -14,7 +14,7 @@ public class NumberPramid {
 
                 System.out.print(j+" ");
             }
-        }
+        }System.out.println();
     }
     
 }
