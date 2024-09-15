@@ -14,10 +14,11 @@ public class ReversePramid {
 
 
             for(int star =1;star<=n-line+1;star++){
-                
+
 
                 System.out.print("*"+" ");
             }
+            
             System.out.println();
         }
 
