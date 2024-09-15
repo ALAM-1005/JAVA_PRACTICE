@@ -8,14 +8,15 @@ public class NumberPramid {
         System.out.println("Enter the Number");
         int n = sc.nextInt();
 
-        for(int i =1;i<=n;i++){
+        for(int line =1;line<=n;line++){
 
-            for(int j = 1;j<=i;j++){
+            for(int number = 1;number<=line;number++){
 
-                System.out.print(j);
+                System.out.print(number);
             }
+            System.out.println();
         }
-        System.out.println();
+        
 
         
     }
