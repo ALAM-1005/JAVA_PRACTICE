@@ -17,7 +17,7 @@ public class Reverse_abcde {
 
             for(int j =n-1;j>=0;j--) {
 
-                System.out.print((char)(j+97)+" ");
+                System.out.print((char)(j%26+97)+" ");
 
         }
 
