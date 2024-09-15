@@ -12,7 +12,7 @@ public class NumberPramid {
 
             for(int j =1;j<=n;j++){
 
-                System.out.println(j+" ");
+                System.out.print(j+" ");
             }
         }
     }
