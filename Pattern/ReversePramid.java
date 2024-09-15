@@ -6,7 +6,7 @@ public class ReversePramid {
 
         Scanner sc  = new Scanner(System.in);
 
-    System.out.println("Enter  the Number");
+        System.out.println("Enter  the Number");
 
     int n = sc.nextInt();
 
@@ -18,7 +18,7 @@ public class ReversePramid {
 
                 System.out.print("*"+" ");
             }
-            
+
             System.out.println();
         }
 
