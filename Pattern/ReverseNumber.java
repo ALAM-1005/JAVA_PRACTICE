@@ -12,7 +12,7 @@ public class ReverseNumber {
 
         int n  = sc.nextInt();
 
-        for(int i =0;i<n;i++){
+        for(int i =0;i<=n;i++){
 
             for(int j =n;j>=0;j--) {
 
