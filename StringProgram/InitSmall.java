@@ -23,9 +23,10 @@ public class InitSmall {
                 }
             }
 
-            return new String(ch);
+           
 
         }
+        return new String(ch);
     }
 
     public static void main(String[] args) {
