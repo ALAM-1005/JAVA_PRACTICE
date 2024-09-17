@@ -7,6 +7,7 @@ public class NumberPramid {
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter the Number");
+        
         int n = sc.nextInt();
 
         for(int line =1;line<=n;line++){
