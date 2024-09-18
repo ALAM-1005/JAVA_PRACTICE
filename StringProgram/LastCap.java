@@ -20,7 +20,7 @@ public class LastCap {
 
                     if(ch[i]>='A'&&ch[i]<= 'Z')
 
-                    ch[i] = (char)(ch[i] + 32);
+                    ch[i] = (char)(ch[i]);
                 }
             }
 
