@@ -18,11 +18,12 @@ public class InitSmall {
                 if(ch[i] >= 'a' && ch[i]<='z'){
                     ch[i] = (char)(ch[i] - 32);
                 }
-                else{
+                
+            }
+            else{
 
-                    if(ch[i]>='A'&&ch[i]<= 'Z')
-                    ch[i] = (char)(ch[i] + 32 );
-                }
+                if(ch[i]>='A'&&ch[i]<= 'Z')
+                ch[i] = (char)(ch[i] + 32 );
             }
 
         }
