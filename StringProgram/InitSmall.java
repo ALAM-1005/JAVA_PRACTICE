@@ -13,7 +13,6 @@ public class InitSmall {
         for(int i=0;i <ch.length;i++)
         
         {
-
             if(i==0&&ch[i]!=' '||ch[i]!=' '&&ch[i-1]==' '){
 
                 if(ch[i] >= 'a' && ch[i]<='z'){
