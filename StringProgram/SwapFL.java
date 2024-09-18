@@ -16,7 +16,7 @@ public class SwapFL {
                 f = i;
             }
 
-            else(i == ch.length-1 && ch[i]!=' ' || ch[i] != ' ' && ch[i+1] == ' ')
+            else if(i == ch.length-1 && ch[i]!=' ' || ch[i] != ' ' && ch[i+1] == ' ')
             {
 
                 char t = ch[f];
