@@ -19,6 +19,8 @@ public class FLCaps {
                 }
                 
             }
+
+            
             else{
 
                 if(ch[i]>='A'&&ch[i]<= 'Z')
