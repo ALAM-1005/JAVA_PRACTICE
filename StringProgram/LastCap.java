@@ -11,7 +11,7 @@ public class LastCap {
 
         for(int i=0;i <ch.length;i++){
 
-            if(i == ch.length-1 && ch[i] != ' '|| ch[i] != ' '&&ch[i-1] == ' '){
+            if(i == ch.length-1 && ch[i] != ' '|| ch[i] != ' '&&ch[i+1] == ' '){
 
                 if(ch[i]>= 'a' && ch[i]<='z'){
                     ch[i] = (char)(ch[i] - 32);
