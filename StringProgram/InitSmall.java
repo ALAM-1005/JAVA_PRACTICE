@@ -15,7 +15,7 @@ public class InitSmall {
             if(i == 0 &&ch[i] != ' '|| ch[i] != ' '&&ch[i-1] == ' '){
 
                 if(ch[i]>= 'a' && ch[i]<='z'){
-                    ch[i] = (char)(ch[i] - 32);
+                    ch[i] = (char)(ch[i]);
                 }
                 else{
 
