@@ -2,7 +2,7 @@ package StringProgram;
 
 import java.util.Scanner;
 
-public class initCapital {
+public class InitCapital {
     static String initCapital(String str){
 
         char[] ch = str.toCharArray();
