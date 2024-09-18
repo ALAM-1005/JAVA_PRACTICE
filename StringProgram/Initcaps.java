@@ -1,3 +1,7 @@
+package StringProgram;
+
+import java.util.Scanner;
+
 public class Initcaps {
 
         static String initCaps(String str) {
@@ -29,19 +33,31 @@ public class Initcaps {
         }
         
         public static void main(String[] args) {
-            String testStr1 = "hello world";
-            String testStr2 = "multiple   spaces";
-            String testStr3 = "SINGLEword";
-            String testStr4 = "  leading and trailing spaces   ";
-            String testStr5 = "mIxEd CaSe wOrDs";
+            // String testStr1 = "hello world";
+            // String testStr2 = "multiple   spaces";
+            // String testStr3 = "SINGLEword";
+            // String testStr4 = "  leading and trailing spaces   ";
+            // String testStr5 = "mIxEd CaSe wOrDs";
             
-            System.out.println(initCaps(testStr1));  // Output: "Hello World"
-            System.out.println(initCaps(testStr2));  // Output: "Multiple   Spaces"
-            System.out.println(initCaps(testStr3));  // Output: "Singleword"
-            System.out.println(initCaps(testStr4));  // Output: "  Leading And Trailing Spaces   "
-            System.out.println(initCaps(testStr5));  // Output: "Mixed Case Words"
-        }
+            // System.out.println(initCaps(testStr1));  // Output: "Hello World"
+            // System.out.println(initCaps(testStr2));  // Output: "Multiple   Spaces"
+            // System.out.println(initCaps(testStr3));  // Output: "Singleword"
+            // System.out.println(initCaps(testStr4));  // Output: "  Leading And Trailing Spaces   "
+            // System.out.println(initCaps(testStr5));  // Output: "Mixed Case Words"
+
+
+             Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the String");
+
+        String str = sc.nextLine();
+        
+
+         String rs = initCaps(str);
+
+       System.out.println(rs);
     }
+ }
     
     
 
