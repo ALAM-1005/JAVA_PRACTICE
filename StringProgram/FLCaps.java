@@ -20,7 +20,7 @@ public class FLCaps {
                 
             }
 
-            
+
             else{
 
                 if(ch[i]>='A'&&ch[i]<= 'Z')
@@ -31,6 +31,7 @@ public class FLCaps {
         return new String(ch);
     }
 
+    
     public static void main(String[] args) {
         
 
