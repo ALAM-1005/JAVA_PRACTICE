@@ -10,7 +10,7 @@ public class InitSmall {
 
         char[] ch = str.toCharArray();
 
-        for(int i = ch.length;i>0;i--){
+        for(int i=0;i <ch.length;i++){
 
             if(i == 0 && ch[i] != ' '|| ch[i] != ' ' && ch[i-1] == ' '){
 
