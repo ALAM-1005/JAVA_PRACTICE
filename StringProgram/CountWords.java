@@ -12,7 +12,7 @@ public class CountWords {
             if(i==0&&ch[i]!=' '||ch[i]!=' '&&ch[i-1]==' ');   //checking initially words       //||(i == ch.length-1 && ch[i]!=' ' || ch[i] != ' ' && ch[i+1] == ' '))
                { 
                 
-                if((ch[i] == 'a'||ch[i] == 'e'||ch[i] == 'i'||ch[i] == 'o'||ch[i] == 'u')||(ch[i] == 'A'||ch[i] == 'E'||ch[i] == 'I'||ch[i] == 'O'||ch[i] == 'U'))
+                if((ch[i] == 'a'||ch[i] == 'e'||ch[i] == 'i'||ch[i] == 'o'||ch[i] == 'u')||(ch[i] == 'A'||ch[i] == 'E'||ch[i] == 'I'||ch[i] == 'O'||ch[i] == 'U'))  // checking all the words either small or capital
                     count++;
             }
         }
