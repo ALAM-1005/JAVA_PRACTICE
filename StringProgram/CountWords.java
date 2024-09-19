@@ -4,8 +4,8 @@ public class CountWords {
     static int countWords(String str){
 
         int count =0;
-        
-        // str = str.toLowerCase();
+
+        // str = str.toLowerCase();  to convert all the string in small
         char[] ch = str.toCharArray();
 
         for(int i =0;i<ch.length;i++){
