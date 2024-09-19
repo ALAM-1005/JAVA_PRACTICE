@@ -16,10 +16,7 @@ public class CountWords {
                     count++;
             }
         }
-
-        return count;
-
-        
+        return count;    
     }
 
     public static void main(String[] args) {
