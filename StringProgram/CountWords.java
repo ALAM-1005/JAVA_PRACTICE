@@ -4,6 +4,7 @@ public class CountWords {
     static int countWords(String str){
 
         int count =0;
+        
         // str = str.toLowerCase();
         char[] ch = str.toCharArray();
 
