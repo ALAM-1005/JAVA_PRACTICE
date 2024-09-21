@@ -18,7 +18,6 @@ public class ReverseWord {
 
             int l =i-1;
             while (l>=f) {
-
                 rs = rs+ch[l];
                 l--;
                 
