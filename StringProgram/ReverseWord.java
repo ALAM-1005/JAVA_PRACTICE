@@ -15,7 +15,6 @@ public class ReverseWord {
             while (i<ch.length && ch[i] !=' ') {
                 i++;
             }
-
             int l =i-1;
             while (l>=f) {
                 rs = rs+ch[l];
