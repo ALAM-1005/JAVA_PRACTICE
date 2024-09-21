@@ -23,7 +23,6 @@ public class ReverseWord {
                 rs = rs+ch[i];                
             }
         }
-
         return rs;
     }
 
