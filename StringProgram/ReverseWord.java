@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class ReverseWord {
 
     static String reverseWords(String str){
-
         String rs ="";
         char[] ch = str.toCharArray();
         for(int i =0;i<ch.length;i++){
