@@ -29,6 +29,5 @@ public class ReverseWord {
         String str =sc.nextLine();
         String rs = reverseWords(str);
         System.out.println(rs);
-    }
-    
+    }  
 }
