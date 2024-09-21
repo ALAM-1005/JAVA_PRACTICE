@@ -23,7 +23,6 @@ public class ReverseWord {
                 l--;
                 
             }
-
             if (i<ch.length) {
 
                 rs = rs+ch[i];
