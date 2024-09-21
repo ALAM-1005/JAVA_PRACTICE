@@ -27,7 +27,6 @@ public class ReverseWord {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String ");
         String str =sc.nextLine();
-
         String rs = reverseWords(str);
         System.out.println(rs);
     }
