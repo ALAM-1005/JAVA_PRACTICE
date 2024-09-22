@@ -2,10 +2,10 @@ package StringProgram;
 import java.util.*;
 public class ReverseSentence {
 
-    static String reverseWords(String str){
+    static String reverseSentence(String str){
         String rs ="";
         char[] ch = str.toCharArray();
-        
+
         for(int i =ch.length-1;i>=0;i--){
 
             int l=i;
@@ -28,7 +28,7 @@ public class ReverseSentence {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String ");
         String str =sc.nextLine();   //siwan
-        String rs = reverseWords(str);
+        String rs = reverseSentence(str);
         System.out.println(rs);//nawis 
     }  
     
