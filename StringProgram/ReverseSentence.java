@@ -5,9 +5,9 @@ public class ReverseSentence {
     static String reverseWords(String str){
         String rs ="";
         char[] ch = str.toCharArray();
-        for(int i =ch.length-1;i>=0;i++){
+        for(int i =ch.length-1;i>=0;i--){
             int l=i;
-            while (i<ch.length && ch[i] !=' ') {
+            while (i>=0 && ch[i] !=' ') {
                 i--;
             }
             int f =i+1;
