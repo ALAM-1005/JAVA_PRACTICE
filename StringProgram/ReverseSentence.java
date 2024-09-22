@@ -11,7 +11,7 @@ public class ReverseSentence {
                 i--;
             }
             int f =i+1;
-            while (l>=f) {
+            while (f<=l) {
                 rs = rs+ch[f];
                 f++;  
             }
