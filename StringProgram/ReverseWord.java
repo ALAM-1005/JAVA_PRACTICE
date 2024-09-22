@@ -27,6 +27,6 @@ public class ReverseWord {
         System.out.println("Enter the String ");
         String str =sc.nextLine();   //siwan
         String rs = reverseWords(str);
-        System.out.println(rs);//nawis
+        System.out.println(rs);//nawis 
     }  
 }
