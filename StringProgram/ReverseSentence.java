@@ -6,16 +6,16 @@ public class ReverseSentence {
         String rs ="";
         char[] ch = str.toCharArray();
         for(int i =0;i<ch.length;i++){
-            int f=i;
+            int l=i;
             while (i<ch.length && ch[i] !=' ') {
-                i++;
+                i--;
             }
-            int l =i-1;
+            int f =i+1;
             while (l>=f) {
-                rs = rs+ch[l];
-                l--;  
+                rs = rs+ch[f];
+                f++;  
             }
-            if (i<ch.length) {
+            if (i>=0) {
                 rs = rs+ch[i];                
             }
         }
