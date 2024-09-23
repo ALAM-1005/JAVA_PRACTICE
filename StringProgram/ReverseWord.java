@@ -1,7 +1,7 @@
 package StringProgram;
 import java.util.Scanner;
 
-public class ReverseWord {
+ class ReverseWord {
 
     static String reverseWords(String str){
         String rs ="";
