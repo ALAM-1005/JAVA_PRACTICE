@@ -2,6 +2,7 @@ package _2DArray;
 
 public class MainMat {
     
+
     public static void main(String[] args) {
 
         Matrix mt = new Matrix();
@@ -19,7 +20,7 @@ public class MainMat {
         
         {
         
-        System.out.println(i+1+" row sum is: " +rs[i]);
+        System.out.println(i+1+" RowWise biggest element is: " +rs[i]);
         }
 
         int[] cs = RowColumnBig.columnWiseBiggest(a);
@@ -27,7 +28,7 @@ public class MainMat {
         for(int i=0; i<cs.length; i++)
         
         { 
-            System.out.println(i+1+" column sum is "+cs[i]);
+            System.out.println(i+1+" columnWise Biggest elemrnts is "+cs[i]);
         
         }
     }
