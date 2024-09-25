@@ -1,7 +1,5 @@
 package _2DArray;
 
-import java.util.Arrays;
-
 public class RowWiserev {
     
 
@@ -33,14 +31,7 @@ public class RowWiserev {
         
         System.out.println("user entered matrix"); 
         mt.dispMat(a);
-        
-        
-        
-        for (int i=0; i<rs.length; i++)
-        
-        {
-        
-        System.out.println(i+1+" RowWise smallest element is: " +rs[i]);
-        }
+
+         mt.rowWiseRev(a);
     }
 }
