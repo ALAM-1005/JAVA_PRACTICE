@@ -34,7 +34,7 @@ public class RowWiserev {
         System.out.println("user entered matrix"); 
         mt.dispMat(a);
         
-        int[] rs = rowWiseRev(a);
+        
         
         for (int i=0; i<rs.length; i++)
         
