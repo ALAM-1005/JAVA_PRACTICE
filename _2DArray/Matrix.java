@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Matrix {
 
 
-  int[][] readMat () {
+  static int[][] readMat () {
   Scanner sc = new Scanner(System.in);
   System.out.println();
   System.out.println("enter the order of a matrix");
@@ -24,7 +24,7 @@ public class Matrix {
 
     return mat;
   }
-public void dispMat (int[][] mat)
+public static void dispMat (int[][] mat)
 {
 
     for (int i=0;i<mat.length; i++)

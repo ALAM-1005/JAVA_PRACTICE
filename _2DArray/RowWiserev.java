@@ -21,17 +21,5 @@ public class RowWiserev {
         }
     }
 
-    public static void main(String[] args) {
-
-        Matrix mt = new Matrix();
-        
-        System.out.println("read first Matrix");
-        
-        int[][]a=mt.readMat();
-        
-        System.out.println("user entered matrix"); 
-        mt.dispMat(a);
-
-         mt.rowWiseRev(a);
-    }
+    
 }
