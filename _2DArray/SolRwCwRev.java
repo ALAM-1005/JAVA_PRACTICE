@@ -1,5 +1,4 @@
 package _2DArray;
-import _2DArray.Matrix;
 public class SolRwCwRev {
     public static void main(String[] args) {
 
@@ -12,6 +11,7 @@ public class SolRwCwRev {
         System.out.println("user entered matrix"); 
         Matrix.dispMat(a);
 
-         
+       int [] rs = RowWiserev.rowWiseRev(a);
+            matrix.dispMat(rs);
     }
 }

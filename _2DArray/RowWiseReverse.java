@@ -42,6 +42,11 @@ public class RowWiseReverse {
             System.out.println(Arrays.toString(row));
         }
     }
+
+    public static void rowWiseRev(int[][] a) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'rowWiseRev'");
+    }
 }
 
 
