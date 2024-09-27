@@ -11,7 +11,11 @@ public class SolRwCwRev {
         System.out.println("user entered matrix"); 
         Matrix.dispMat(a);
 
-       int [] rs = RowWiserev.rowWiseRev(a);
-            matrix.dispMat(rs);
+        RowWiserev.rowWiseRev(a);
+
+        for(int i =0;i<a.length;i++){
+
+                System.out.println(a[i]);
+            }
     }
 }

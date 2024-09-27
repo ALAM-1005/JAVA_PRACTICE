@@ -3,7 +3,7 @@ package _2DArray;
 public class RowWiserev {
     
 
-    static int[][] rowWiseRev(int [][] mat){
+    static void rowWiseRev(int [][] mat){
 
         for(int i =0;i<mat.length;i++){
 
@@ -19,7 +19,6 @@ public class RowWiserev {
                 h--;
             }
         }
-            return mat;
     }
 
 
