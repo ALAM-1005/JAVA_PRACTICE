@@ -24,6 +24,7 @@ public class SumE {
 
         int sm = sum(ar);
 
-       System.out.println(sm);
+     
+        System.out.println(sm);
     }
 }
