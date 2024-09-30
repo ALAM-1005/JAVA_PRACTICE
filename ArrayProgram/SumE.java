@@ -10,7 +10,7 @@ public class SumE {
 
             if(i%2 == 0){  
 
-                sum = sum + x[i];
+                sum = sum + x[i];   // sum of element
             }
         }
         return sum;
