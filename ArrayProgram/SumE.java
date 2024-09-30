@@ -19,6 +19,7 @@ public class SumE {
 
 
     public static void main(String[] args) {
+       
         
         int[] ar = { 0,1 ,3,4,5,6};   
 
