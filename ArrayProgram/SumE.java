@@ -4,7 +4,7 @@ public class SumE {
     
     static int sum(int[] x){
 
-        int sum  =0;
+        int sum  =0;  // initial
 
         for(int i =0; i<x.length;i++){
 
