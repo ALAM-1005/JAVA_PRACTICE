@@ -1,5 +1,6 @@
 package ArrayProgram;
 
+
 public class SumE {
     
     static int sum(int[] x){
@@ -23,7 +24,7 @@ public class SumE {
 
         int sm = sum(ar);
 
-     
+
         System.out.println(sm);
 
     }
