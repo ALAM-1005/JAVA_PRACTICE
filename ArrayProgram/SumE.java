@@ -1,6 +1,6 @@
 package ArrayProgram;
 
-
+@
 public class SumE {
     
     static int sum(int[] x){
