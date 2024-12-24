@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class HappyNum {
 
+    
+
     static boolean isHappy(int n){
 
         while(n>9){
